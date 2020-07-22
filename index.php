@@ -9,7 +9,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Metromega - Responsive HTML5 Metro Template</title>
+        <title>App's Empresa</title>
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta name="description" content="155 characters of message matching text with a call to action goes here">
         <meta name="keywords" content="responsive, metro, template, metromega, grozav">
@@ -82,10 +82,8 @@
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
-                    <div class="modal-body">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe src="https://web.microsoftstream.com/embed/video/b44f7a79-9cee-4f0a-8cb3-75ca7f2e2a76?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-                        </div>
+                    <div class="modal-body" id="iddetalle">
+                        
                     </div>
                     <div class="modal-footer" id="idbutton">
                       
