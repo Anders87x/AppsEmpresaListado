@@ -29,7 +29,7 @@
                     {
                         ?>
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src="https://web.microsoftstream.com/embed/video/b44f7a79-9cee-4f0a-8cb3-75ca7f2e2a76?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+                                <iframe src="https://web.microsoftstream.com/embed/video/<?php echo $row['VID_DIREC'];?>?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
                             </div>
                         <?php
                     }
