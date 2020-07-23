@@ -39,13 +39,11 @@
 
         <section id="content">
             <section class="clearfix section" id="start">
-                <h3 class="block-title">Bienvenido</h3>
-
                 <?php
                     for($i=0; $i<sizeof($appx);$i++){
                 ?>
-                    <div class="tile webdesign imagetile icon-fadein w2 h1" onClick="ver(<?php echo $appx[$i]["APP_ID"];?>);">
-                        <a href="#" data-lightbox="mlightboximage" class="link" data-src="public/img/<?php echo $appx[$i]["APP_IMG"];?>" data-title="Generic" data-description="by PierreBorodin">
+                    <div class="tile <?php echo $appx[$i]["APP_COLOR"];?> webdesign imagetile icon-fadein w2 h1" onClick="ver(<?php echo $appx[$i]["APP_ID"];?>);">
+                        <a href="#" data-lightbox="mlightboximage" class="link" data-src="public/img/<?php echo $appx[$i]["APP_IMG"];?>" data-title="Generic" data-description="">
                             <i class="fa fa-laptop"></i>
                             <img src="public\img\<?php echo $appx[$i]["APP_IMG"];?>" alt="">
                             <p class="title"><?php echo $appx[$i]["APP_NOM_CORT"];?></p>

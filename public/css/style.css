@@ -562,7 +562,7 @@ blockquote {
     margin: 0;
 }
 .tile .text, .tile .title, .tile .tilecontent .tile .caption, .tile .sub, .tile .title-right {
-    font-size:11px;
+    font-size:16px;
 }
 
 /*==== 2.11 Tile Height ====*/
